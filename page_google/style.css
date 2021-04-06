@@ -1,0 +1,178 @@
+body
+	{
+		font-family: arial, sans serif ;
+		font-size: small ;
+		
+	}
+
+header
+	{
+		display: flex ;
+		flex-direction: row ;
+		justify-content: flex-end ;
+		padding: 5px ;
+
+	}
+
+.Gmail
+	{
+		margin: 15px ;
+		font-size: 15px ;
+		text-decoration: none;
+		color: black ;
+		padding: 5px ;
+	
+	}
+
+.Images
+	{
+		margin: 15px ;
+		font-size: 15px ;
+		text-decoration: none ;
+		color: black ;
+		padding: 5px ;
+		
+	}
+
+.App
+	{
+		margin: 12px ;
+
+	}
+
+header button
+	{
+		background-color: #039AEB ;
+		margin: 15px ;
+		height: 30px ; 
+		width: 90px ;
+		color: rgb(250, 246, 246) ;
+		border: #039AEB ;
+		border-radius: 3px ;
+
+	}
+
+#main
+	{
+		display: flex ;
+		align-items: center ;
+		justify-content: center ;
+		flex-direction: column;
+
+	}
+
+p
+	{
+		margin: 20px;
+		padding:0px;
+
+	}
+
+.wear1
+	{	
+		display: flex ;
+		justify-content: center ;
+		
+	}
+
+input
+	{
+		display: block ;
+		margin: 0 auto;
+		margin-top: 20px;
+		height: 40px ;
+		width: 580px ;
+		border-radius: 50px ;
+		outline-style: none;
+		border: solid rgb(197, 196, 196) 0.1em;
+		
+	}	
+input:hover
+	{
+		box-shadow: 1px 1px 10px rgb(206, 205, 205);
+
+	}
+
+
+button
+	{
+		border-radius: 3px;
+		border: #FFFFFF ;
+		background-color: rgb(248, 246, 246);
+		height: 35px ;
+		margin-top: 25px;
+		margin-left: 5px;
+	
+	}
+
+button:hover
+	{
+		border: solid rgb(197, 196, 196) 0.1em;
+		box-shadow: 1px 1px 10px rgb(206, 205, 205);
+
+	}
+
+footer
+	{
+		background-color: #F2F2F2;
+		display: flex;
+		flex-direction: column;
+		color: rgba(0,0,0.54);
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		font-size: small 10px;
+		color: grey;
+
+	}
+
+footer ul li
+	{
+		list-style: none;
+		margin-left: 0px;
+		margin-right: 20px;
+
+	}
+
+
+ul
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+.france
+	{
+		border-bottom: solid 1px;
+		border-top: solid 1px;
+		padding-left: 40px;
+		margin-left: 0px;
+		border-color: #EBE9E9;
+
+	}
+
+.Footer
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 0px;
+		margin-right: 40px;
+		margin-bottom: 15px;
+
+	}
+
+.leaf
+	{
+		display: flex;
+		justify-content: center;
+
+	}
+
+
+
+
+
+
+
+
